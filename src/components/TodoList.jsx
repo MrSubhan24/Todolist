@@ -93,7 +93,7 @@ const TodoList = () => {
           </div>
         )}
       </div>
-      <ul className="overflow-y-scroll max-h-80">
+      <ul className="overflow-y-scroll max-h-80 flex gap-5 justify-center flex-wrap">
         {todos.length > 0 ? (
           todos.map((todo, index) => (
             <TodoCard

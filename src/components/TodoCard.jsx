@@ -7,7 +7,7 @@ const TodoCard = ({ todo, onDelete, onEdit }) => {
   const items = todo.text.split('\n');
 
   return (
-    <div className="bg-slate-400 shadow-md p-2 mb-2 gap-6 flex flex-col justify-between items-start rounded">
+    <div className="bg-blue-200 shadow-md p-2 mb-2 gap-6 flex flex-col justify-between items-start rounded">
       <h2 className="text-xl font-semibold">{todo.title}</h2>
       <ul > {/* Menggunakan elemen <ul> untuk daftar */}
         {items.map((item, index) => (
